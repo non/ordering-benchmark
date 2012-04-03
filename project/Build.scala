@@ -3,7 +3,7 @@ import sbt.Keys._
 
 object MyBuild extends Build {
   lazy val project = Project("root", file(".")) settings(
-    name := "Benchmarking",
+    name := "Ordering Benchmark",
     organization := "n/a",
 
     scalaVersion := "2.9.1",
